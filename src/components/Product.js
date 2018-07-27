@@ -25,5 +25,5 @@ Product.defaultProps = {
 Product.propTypes = {
   name: PropType.string.isRequired,
   producer: PropType.string,
-  hasWatermark: 
+  hasWatermark: PropType.bool,
 }
