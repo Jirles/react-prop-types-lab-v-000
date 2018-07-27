@@ -23,6 +23,6 @@ Product.defaultProps = {
 }
 
 Product.propTypes = {
-  name: PropType.string,
+  name: PropType.string.isRequired,
   producer: PropType.string
 }
