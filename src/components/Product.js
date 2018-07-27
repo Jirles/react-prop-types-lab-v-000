@@ -27,4 +27,9 @@ Product.propTypes = {
   producer: PropType.string,
   hasWatermark: PropType.bool,
   color: PropType.oneOf(['white', 'eggshell-white', 'salmon']).isRequired,
+  weight: function(weight){
+    if (weight < 80 || weight > 300){
+      return new Error('Prop weight must be a number ranged between 80 and 300.')
+    }
+  }
 }
