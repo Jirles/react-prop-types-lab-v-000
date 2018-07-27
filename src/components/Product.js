@@ -9,7 +9,9 @@ export default class Product extends React.Component {
         <h3>{this.props.name}</h3>
         <small>{this.props.producer}</small>
         <ul>
-          <li>Watermark: {this.props.hasWatermark}</li>
+        <li>Watermark: {this.props.hasWatermark}</li>
+        <li>Paper Color: {this.props.color}</li>
+        <li>Paper Weight: {this.props.weight}</li>
         </ul>
       </div>
     )
