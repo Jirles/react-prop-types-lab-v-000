@@ -23,5 +23,6 @@ Product.defaultProps = {
 }
 
 Product.propTypes = {
-  name: PropType.string
+  name: PropType.string,
+  producer: PropType.string
 }
