@@ -26,4 +26,5 @@ Product.propTypes = {
   name: PropType.string.isRequired,
   producer: PropType.string,
   hasWatermark: PropType.bool,
+  color: PropType.oneOf(['white', 'eggshell-white', 'salmon'])
 }
